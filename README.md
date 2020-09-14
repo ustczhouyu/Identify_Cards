@@ -3,9 +3,9 @@
 - structured_process：结构化模块
 - data_correction：后校验模块
 - template：模板匹配用到的模板
-- Interface：调用百度API的一些接口
 - test_data：测试数据
-- main：主函数  
+- main.py：主函数  
+- deployment_interface.py：应用
 
 
 >目前实现了出租车票据、户口本、营业执照三种类型的识别，逐渐完善各个模块ing  
