@@ -12,3 +12,4 @@ household_register.ipynb
 弃用_business_license_1.ipynb
 弃用_business_license_2.ipynb
 *.pyc
+!img/*.JPG
