@@ -17,18 +17,19 @@ if __name__ == "__main__":
 
 
     # 发票-出租车票据
-    img = cv2.imread(r"C:\Users\ZHOU-JC\Desktop\829.png")
-    result = request_ocr(img, detail=False)
-    taxi_receipt = taxi_receipt(img, " ".join(result))
-    print(result)
-    print(taxi_receipt.res)
+    # img = cv2.imread(r"C:\Users\ZHOU-JC\Desktop\829.png")
+    # result = request_ocr(img, detail=False)
+    # taxi_receipt = taxi_receipt(img, " ".join(result))
+    # print(result)
+    # print(taxi_receipt.res)
 
     # 证件-营业执照
-    # img = cv2.imread(r"C:\Users\ZHOU-JC\Desktop\3771_3652782ab85ce3fa4575e2bdce504fea.jpg")
-    # list_qr = find_qr_location(img)
-    # print("找到{}个疑似是二维码的location".format(len(list_qr)))
-    # url = parse_qr(img, list_qr)
-    # business_license = business_license(img, url)
+    img = cv2.imread(r"C:\Users\ZHOU-JC\Desktop\3771_3652782ab85ce3fa4575e2bdce504fea.jpg")
+    list_qr = find_qr_location(img)
+    print("找到{}个疑似是二维码的location".format(len(list_qr)))
+    url = parse_qr(img, list_qr)
+    business_license = business_license(img, url)
+    print(business_license.res)
 
     # 证件-户口本
     # areacode_unit_address = json.load(open(r'./data_correction/data/areacode_unit_address.json', "r", encoding="utf-8"))
