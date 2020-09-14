@@ -6,3 +6,9 @@ data/
 .ipynb_checkpoints/
 content.json
 template.json
+invoice.ipynb
+business_license.ipynb
+household_register.ipynb
+弃用_business_license_1.ipynb
+弃用_business_license_2.ipynb
+*.pyc

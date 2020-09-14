@@ -10,10 +10,11 @@
             "request": "launch",
             "program": "${file}",
             "console": "integratedTerminal",
-            "args" : [
-                "--template",r"D:/Projects/sendi/OCR/Identify_Cards/temple_match/ocr_a_reference.png",
-                "--image",r"D:/Projects/sendi/OCR/Identify_Cards/temple_match/credit_card_01.png"
-            ]
+            // "env": {"PYTHONPATH":"${workspaceRoot}"}
+            // "args" : [
+            //     "--template",r"D:/Projects/sendi/OCR/Identify_Cards/temple_match/ocr_a_reference.png",
+            //     "--image",r"D:/Projects/sendi/OCR/Identify_Cards/temple_match/credit_card_01.png"
+            // ]
         }
     ]
 }
